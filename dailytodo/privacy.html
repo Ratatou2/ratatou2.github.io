@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Todo 개인정보처리방침</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Daily Todo 개인정보처리방침</h1>
+<p class="muted">시행일: ［입력 필요: YYYY-MM-DD］<br>
+운영자: ［입력 필요: 운영자 이름 또는 상호］<br>
+문의: <a href="mailto:dev.tou2ggom@gmail.com">dev.tou2ggom@gmail.com</a></p>
+<nav><a href="index.html">홈</a><a href="terms.html">이용약관</a><a href="delete-data.html">데이터 삭제 안내</a><a href="#en">English</a></nav>
+
+<h2>1. 요약</h2>
+<ul>
+  <li>할 일, 카테고리, 루틴, 프로필 등 앱 데이터는 <strong>이용자의 기기</strong>에 저장됩니다. 운영자는 별도 서버를 운영하지 않으며 이 데이터를 받지 않습니다.</li>
+  <li>Google Drive 동기화를 켜면 앱 데이터가 <strong>이용자 본인의 Google Drive</strong>에 저장됩니다. 앱은 자기가 만든 파일에만 접근하며(<code>drive.file</code> 권한), 운영자는 이 파일에 접근할 수 없습니다.</li>
+  <li>Premium 구독 결제는 Google Play가 처리하고, 구독 상태 확인은 RevenueCat이 처리합니다.</li>
+  <li>무료 이용 중에는 Google AdMob 광고가 표시될 수 있으며, 광고 제공을 위해 광고 식별자 등이 Google에 전송됩니다. 동의가 필요한 지역에서는 먼저 동의를 받습니다. Premium 이용자에게는 광고를 요청하지 않습니다.</li>
+  <li>별도의 분석 도구나 오류 수집 도구는 사용하지 않습니다.</li>
+</ul>
+
+<h2>2. 처리하는 정보와 목적</h2>
+<div class="table-wrap"><table>
+<tr><th>구분</th><th>항목</th><th>저장 위치 또는 받는 곳</th><th>목적</th><th>언제</th></tr>
+<tr><td>앱 데이터</td><td>할 일 제목, 날짜, 완료 여부, 카테고리, 루틴, 프로필 이름과 문구와 이미지, 삭제한 할 일 복구 기록</td><td>기기 내부 저장소</td><td>앱 기능 제공</td><td>앱 사용 시</td></tr>
+<tr><td>Drive 동기화</td><td>위 앱 데이터의 사본(JSON 파일)</td><td>이용자 본인의 Google Drive "TodoOnly4Me" 폴더</td><td>여러 기기 간 동기화, 백업</td><td>선택(Google 계정 연결 시)</td></tr>
+<tr><td>Google 계정 연결</td><td>Google 계정 이메일, 계정 고유 ID, 접근 토큰</td><td>기기(Google 로그인 기능)</td><td>Drive 접근 인증, 이전에 동기화한 계정인지 확인</td><td>선택</td></tr>
+<tr><td>구독 식별자</td><td>앱이 만든 구독용 ID(익명 ID, 또는 Google 계정을 연결한 경우 계정 고유 ID로 계산한 가명 ID). 계정 ID 원문과 이메일은 보내지 않습니다</td><td>RevenueCat</td><td>구독 상태 확인, 같은 Google 계정의 다른 기기에 구독 적용, 구매 복원</td><td>구독 기능 사용 시</td></tr>
+<tr><td>구매 정보</td><td>구매 토큰, 상품, 구매와 갱신과 만료와 환불 이력, 기기와 OS 정보, IP 주소(통신 과정)</td><td>Google Play, RevenueCat</td><td>결제 처리, 구독 검증</td><td>구독 시</td></tr>
+<tr><td>광고</td><td>광고 식별자, IP 주소, 기기와 OS와 앱 정보, IP 기반 대략적 위치, 광고 상호작용, 동의 상태</td><td>Google(AdMob, User Messaging Platform)</td><td>광고 제공과 측정, 부정 사용 방지, 동의 관리</td><td>무료 이용자(처음 3주 이후). Premium 이용자에게는 광고를 요청하지 않음</td></tr>
+<tr><td>광고 표시 기록</td><td>오늘 광고 횟수, 마지막 광고 시각, 광고 기능 첫 사용 시각</td><td>기기 내부(기기 백업에서 제외)</td><td>하루 광고 횟수 제한 적용</td><td>무료 이용자</td></tr>
+<tr><td>광고 운영 설정 조회</td><td>IP 주소(설정 파일을 올린 서버의 접속 기록)</td><td>GitHub Pages(설정 파일 호스트)</td><td>광고 일시 중단 등 운영</td><td>무료 이용자</td></tr>
+<tr><td>진단 정보</td><td>앱 버전, OS, 구독 상태, 고객 지원 ID, 광고 환경, Drive 연결 여부, 최근 동기화 결과, 오류 종류(할 일 내용, 이메일, 토큰은 기록하지 않음)</td><td>기기 내부(7일, 최대 2MB)</td><td>문의 대응</td><td>이용자가 "진단 정보 내보내기"로 직접 공유할 때만 외부로 전달</td></tr>
+</table></div>
+
+<h2>3. 제3자 제공과 처리 위탁</h2>
+<p>운영자는 개인정보를 판매하지 않습니다. 아래 서비스는 각 서비스의 개인정보처리방침에 따라 정보를 처리합니다.</p>
+<div class="table-wrap"><table>
+<tr><th>서비스</th><th>처리 정보</th><th>개인정보처리방침</th></tr>
+<tr><td>Google(Google 로그인, Google Drive API)</td><td>계정 인증, 앱이 만든 Drive 파일 읽기와 쓰기</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+<tr><td>Google Play 결제</td><td>구매 정보</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+<tr><td>Google AdMob, User Messaging Platform</td><td>광고 항목(2장 표)</td><td><a href="https://policies.google.com/technologies/partner-sites">Google 파트너 사이트 데이터 사용</a></td></tr>
+<tr><td>RevenueCat, Inc.</td><td>구독 식별자, 구매 정보</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
+<tr><td>GitHub(GitHub Pages)</td><td>광고 운영 설정 파일 조회 시 접속 기록</td><td><a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 처리방침</a></td></tr>
+</table></div>
+
+<h3>국외 이전</h3>
+<p>위 서비스는 대한민국 밖(미국 등)에서 정보를 처리할 수 있습니다. 이전은 앱이 해당 서비스와 통신할 때 네트워크로 이루어지며, 항목과 목적은 2장과 같고 보유 기간은 각 서비스의 정책을 따릅니다. 이전을 원하지 않으면 Google 계정 연결, 구독, 광고 동의를 하지 않거나(동의가 필요한 지역), 앱 사용을 중단할 수 있습니다. 이 경우 해당 기능을 이용할 수 없습니다.</p>
+<p class="muted">［입력 필요: 법률 검토 후 이전받는 자의 연락처와 이전 국가를 구체적으로 적을지 결정］</p>
+
+<h2>4. 보유 기간과 파기</h2>
+<ul>
+  <li>기기의 앱 데이터: 이용자가 삭제하거나 앱을 삭제할 때까지. 앱의 삭제 기능이나 OS의 앱 데이터 삭제로 지울 수 있습니다.</li>
+  <li>Google Drive 파일: 이용자가 Drive에서 직접 삭제할 때까지(운영자는 삭제할 수 없습니다).</li>
+  <li>삭제한 할 일 복구 기록: 90일, 최대 200건.</li>
+  <li>진단 로그: 7일이 지나거나 2MB를 넘는 분량부터 자동 삭제.</li>
+  <li>RevenueCat 구독 기록: 결제와 세무 증빙에 필요한 기간. 삭제를 원하면 <a href="delete-data.html">데이터 삭제 안내</a>에 따라 요청할 수 있습니다.</li>
+  <li>광고 관련 정보: Google 정책에 따릅니다.</li>
+</ul>
+
+<h2>5. 이용자의 권리와 행사 방법</h2>
+<ul>
+  <li>앱 데이터 열람, 수정, 삭제는 앱에서 직접 할 수 있습니다.</li>
+  <li>Google 계정 연결 해제: 앱의 설정 &gt; Google Drive 동기화. Google 계정 설정(<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>)에서 앱 권한을 철회할 수도 있습니다.</li>
+  <li>광고 동의 변경: 앱의 설정 &gt; 광고 &gt; "광고 개인정보 설정"(동의가 필요한 지역에서 표시). 광고 식별자는 Android 설정에서 재설정하거나 삭제할 수 있습니다.</li>
+  <li>구독 해지: Google Play &gt; 결제 및 정기 결제 &gt; 정기 결제.</li>
+  <li>그 밖의 요청: <a href="mailto:dev.tou2ggom@gmail.com">dev.tou2ggom@gmail.com</a>. 구독 관련 요청에는 앱의 설정 &gt; 고객 지원에 있는 "고객 지원 ID"가 필요합니다.</li>
+</ul>
+
+<h2>6. 아동</h2>
+<p>［입력 필요: 대상 연령 결정 후 작성. 예: 이 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.］</p>
+
+<h2>7. 안전성 확보 조치</h2>
+<ul>
+  <li>외부 통신은 HTTPS로 암호화됩니다.</li>
+  <li>Drive 권한은 앱이 만든 파일로 한정됩니다.</li>
+  <li>결제 비밀 키는 앱에 포함하지 않습니다.</li>
+  <li>진단 로그는 이메일, 토큰, 키 형태의 문자열을 가린 뒤 저장합니다.</li>
+</ul>
+
+<h2>8. 변경</h2>
+<p>방침을 바꾸면 이 페이지에 시행일과 함께 게시합니다. 중요한 변경은 앱 업데이트 안내로 알립니다.</p>
+
+<h2>9. 개인정보 보호책임자</h2>
+<p>［입력 필요: 이름］, <a href="mailto:dev.tou2ggom@gmail.com">dev.tou2ggom@gmail.com</a></p>
+
+<h2 id="en" lang="en">English summary</h2>
+<div lang="en">
+<p>Operator: ［required: operator name］. Contact: <a href="mailto:dev.tou2ggom@gmail.com">dev.tou2ggom@gmail.com</a>. Effective date: ［required: YYYY-MM-DD］.</p>
+<ul>
+  <li>Your tasks, categories, routines and profile are stored on your device. We run no server and do not receive this data.</li>
+  <li>If you turn on Google Drive sync, a copy is stored in your own Google Drive. The app can access only files it created (<code>drive.file</code>). We cannot access them.</li>
+  <li>Subscriptions are processed by Google Play and verified by RevenueCat using an app-generated ID (anonymous, or a pseudonymous ID derived from your Google account ID; the raw ID and your email are not sent).</li>
+  <li>Free users may see Google AdMob ads after the first 3 weeks (up to 2 a day). AdMob and the User Messaging Platform process the advertising ID, IP address, device and app information, approximate location, ad interactions and consent status. Premium users are not sent ad requests.</li>
+  <li>Diagnostics stay on your device (7 days, up to 2 MB) and leave it only if you choose "Export diagnostics".</li>
+  <li>No analytics or crash reporting SDK is used. See <a href="delete-data.html">how to delete your data</a>.</li>
+</ul>
+</div>
+</main>
+</body>
+</html>
